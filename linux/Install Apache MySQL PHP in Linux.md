@@ -1,6 +1,11 @@
 ### 关于LAMP
 LAMP 是一组用于构建web服务器的开源软件集合代表，它们分别是Linux, Apache, MySQL和PHP的首字母缩写。
 
+### 目录
+* [LAMP安装](#LAMP安装(eg: Ubuntu))
+* [LAMP基本操作](#LAMP基本操作)
+* [开启web之旅](#开启web之旅)
+
 -----------------------------------------------------------------
 ### LAMP安装(eg: Ubuntu)
 #### Apache
@@ -149,7 +154,7 @@ mysql -u root -p [password]
 ```
 
 --------------------------------------------------------------
-### 开启web服务之旅
+### 开启web之旅
 在Apache服务根目录下创建一个php文件
 ```
 sudo vim /var/www/index.php

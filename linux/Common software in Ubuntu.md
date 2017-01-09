@@ -8,25 +8,34 @@
 
 ------------------------------------------------------------
 以下是我在倒腾过程中发现的比较好的软件列表
+#### 目录
+* [开发工具](#开发工具)
+* [编辑器](#编辑器)
+* [图像处理](#图像处理)
+* [文档处理](#文档处理)
+* [音乐视频播放器](#音乐视频播放器)
+* [文档阅读](#文档阅读)
+* [网盘工具](#网盘工具)
+* [其他](#其他)
 
 #### 开发工具
-**Java: **
+__Java: __
 * [JDK](http://www.oracle.com/technetwork/java/javase/downloads/index.html) 需配置环境变量
 * [Android Developers](https://developer.android.com/index.html) android开发官网
 * [Eclipse](http://developer.android.com/sdk/index.html) 直接下载ADT Bundle，省时省事，需先有java环境。SDK Manager更新缓慢的解决办法：设置代理
 
-**PHP: **
+__PHP: __
 * [PHP](http://php.net/manual/zh/install.unix.debian.php)
 * [Netbean](https://netbeans.org/downloads/) 支持PHP/Java等环境，不够要先安装了开发环境才能调试
 
 
-**Node: **
+__Node: __
 * [NodeJs](https://nodejs.org/en/download/package-manager/) 包安装的话版本可能会有点久，不过也可以先安装好后再升级
 
-**MySQL: **
+__MySQL: __
 * [MySQL](http://dev.mysql.com/downloads/os-linux.html) 经典的关系数据库管理软件
 
-**MongoDB: **
+__MongoDB: __
 * [mongodb](https://www.mongodb.com/download-center?jmp=docs&_ga=1.69178008.827425485.1483933422#community) NoSQL
 
 #### 编辑器
