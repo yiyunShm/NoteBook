@@ -115,6 +115,7 @@ Jake Archibald曾经在一张幻灯片上定义了*一致性* [Resuable Code - F
 --------------------------------------------------------------------------------------
 ### 处理参数
 ![Good Intentions](https://github.com/yiyunShm/NoteBook/blob/master/js/images/good_intentions.png)
+
 你的方法如何接受数据比让它们具有可链性更为重要。虽然方法链是非常普遍的，你可以很容易地在你的代码中实现，但是处理参数却不同。你需要想想，你提供的方法最有可能被如何使用。调用你的API的代码会不会重复调用某个函数？为什么会重复调用？如何使你的API帮助开发者减少这种重复调用函数的干扰？
 ```
 jQuery('#some-selector')
@@ -359,6 +360,7 @@ $world.toggle(bar);
 ----------------------------------------------------------------------
 ### 可拓展性
 ![Developing Possibilities](https://github.com/yiyunShm/NoteBook/blob/master/js/images/developing_possibilities.png)
+
 在option对象部分，我们谈到了可拓展的配置。我们来讨论下API使用者拓展核心和API本身。这一点很重要，因为它可以使你的代码关注重要的事情，同时可以使API使用者自己处理边界情况。好的API设计都很简约。提供丰富的配置项当然很好，但是过多的配置项会导致你的API变得臃肿晦涩。关注主要的应用场景，只提供API使用者需要的大部分功能，剩下的应该留给他们决定。为了允许API使用者拓展你的代码以适应他们的需要，你有很多的选择。
 
 #### 回调函数
@@ -507,6 +509,7 @@ di.start('yesterday');
 -----------------------------------------------------------------------------------
 ### 生成访问器
 ![duplication](https://github.com/yiyunShm/NoteBook/blob/master/js/images/duplication.png)
+
 任何一个API多半都会有完成类似工作的多种访问方法(getters, setters, executors)。回到`DateInterval`的例子，我们应该会提供`start()`和`end()`方法以允许对时间间隔的操作。可以像这样简单解决：
 ```
 DateInterval.prototype.start = function(date) {
@@ -675,6 +678,7 @@ jQuery.fn.somePlugin = function() {
 -------------------------------------------------------------------------------
 ### 处理错误
 ![Fail faster](https://github.com/yiyunShm/NoteBook/blob/master/js/images/fail_faster.png)
+
 我之前说我们无法从链中逃出来，其实是骗你的——对于这条规则有一个`Exception`(请不要介意这个双关语)
 
 通过抛出错误（异常）我们就可以强制退出。抛出错误往往被认为是当前执行流的蓄意中止，往往可能是因为你陷入无法恢复的状态。但是当心——并不是所有的错误都会帮助开发者调试：
