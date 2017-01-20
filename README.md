@@ -17,5 +17,7 @@
 -----------------------------------------------------------------------
 ### JS
 * [设计更好的 Javascript API](https://github.com/yiyunShm/NoteBook/blob/master/js/base/%E8%AE%BE%E8%AE%A1%E6%9B%B4%E5%A5%BD%E7%9A%84%20Javascript%20API.md)
+* [设计和构建你自己的Javascript代码库](https://github.com/yiyunShm/NoteBook/blob/master/js/base/%E8%AE%BE%E8%AE%A1%E5%92%8C%E6%9E%84%E5%BB%BA%E4%BD%A0%E8%87%AA%E5%B7%B1%E7%9A%84Javascript%E4%BB%A3%E7%A0%81%E5%BA%93.md)
+* [DRY的Javascript模式]()
 
 
