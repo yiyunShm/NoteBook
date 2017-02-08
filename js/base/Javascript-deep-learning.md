@@ -4,8 +4,8 @@
 晚上闲着无事刷着博客，看到了几个非常有意思的小题目，顺手记录下来。偶尔回看一下，也能更好的巩固基础
 
 原文链接：
-Baranovskiy: [So, you think you know JavaScript?](http://dmitry.baranovskiy.com/post/91403200)
-Nicholas C. Zakas: [Answering Baranovskiy’s JavaScript quiz](http://www.nczonline.net/blog/2010/01/26/answering-baranovskiys-javascript-quiz/)
+1. Baranovskiy: [So, you think you know JavaScript?](http://dmitry.baranovskiy.com/post/91403200)
+2. Nicholas C. Zakas: [Answering Baranovskiy’s JavaScript quiz](http://www.nczonline.net/blog/2010/01/26/answering-baranovskiys-javascript-quiz/)
 
 ### 题目
 题一：
@@ -253,12 +253,12 @@ a.call(window);
 ```
 
 ### 拓展
-1. 找出数字数组中最大的元素(使用Math.max)
+1.找出数字数组中最大的元素(使用Math.max)
 ```
 Math.max.apply(null, [1, 3, 5, 15]);
 ```
 
-2. 转化一个数字数组为function数组(每个function执行都弹出相应的数字)
+2.转化一个数字数组为function数组(每个function执行都弹出相应的数字)
 ```
 var a = [1, 3, 5].map(function(v, i) {
   return function() {
@@ -267,14 +267,14 @@ var a = [1, 3, 5].map(function(v, i) {
 });
 ```
 
-3. 给object数组进行排序(排序条件是每个元素对象的属性个数)
+3.给object数组进行排序(排序条件是每个元素对象的属性个数)
 ```
 [{a: 1, b: 2, c: 3}, {d: 4}, {e: 5, f: 6}].sort(function(prev, next) {
   return Object.keys(prev).length - Object.keys(next).length;
 });
 ```
 
-4. 利用JavaScript打印出Fibonacci数(不使用全局变量)
+4.利用JavaScript打印出Fibonacci数(不使用全局变量)
 ```
 function Fibonacci(n) {
   var numArr = [1, 1];
@@ -290,7 +290,7 @@ function Fibonacci(n) {
 }
 ```
 
-5. 实现如下语法的功能：var a = (5).plus(3).minus(6); //2
+5.实现如下语法的功能：var a = (5).plus(3).minus(6); //2
 ```
 Number.prototype.plus = function(a) {
   return Number(this + a);
@@ -301,7 +301,7 @@ Number.prototype.minus = function(a) {
 }
 ```
 
-6. 实现如下语法的功能：var a = add(2)(3)(4); //9
+6.实现如下语法的功能：var a = add(2)(3)(4); //9
 ```
 function add(num) {
   function _add(args) {
