@@ -21,5 +21,5 @@
 * [DRY的Javascript模式](https://github.com/yiyunShm/NoteBook/blob/master/js/base/DRY%E5%BC%80%E5%8F%91%E8%80%85%E7%9A%84Javascript%E6%A8%A1%E5%BC%8F.md)
 * [Frameworks without the framework](https://github.com/yiyunShm/NoteBook/blob/master/js/base/Frameworks%20without%20the%20framework.md)
 * [前端代码规范](https://github.com/yiyunShm/NoteBook/blob/master/js/base/%E5%89%8D%E7%AB%AF%E4%BB%A3%E7%A0%81%E8%A7%84%E8%8C%83.md)
-* [Javascript Deep Learning]()
+* [Javascript Deep Learning](https://github.com/yiyunShm/NoteBook/blob/master/js/base/Javascript-deep-learning.md)
 
