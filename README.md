@@ -24,7 +24,8 @@
 * [Javascript Deep Learning](https://github.com/yiyunShm/NoteBook/blob/master/js/base/Javascript-deep-learning.md)
 
 ##### 设计模式
-* [单体模式](https://github.com/yiyunShm/NoteBook/blob/master/js/%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F/%E5%8D%95%E4%BD%93%E6%A8%A1%E5%BC%8F.md)
-* [构造函数模式](https://github.com/yiyunShm/NoteBook/blob/master/js/%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F/%E6%9E%84%E9%80%A0%E5%87%BD%E6%95%B0%E6%A8%A1%E5%BC%8F.md)
-* [工厂模式](https://github.com/yiyunShm/NoteBook/blob/master/js/%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F/%E5%B7%A5%E5%8E%82%E6%A8%A1%E5%BC%8F.md)
-* [装饰者模式](https://github.com/yiyunShm/NoteBook/blob/master/js/%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F/%E8%A3%85%E9%A5%B0%E8%80%85%E6%A8%A1%E5%BC%8F.md)
+* [单体模式](https://github.com/yiyunShm/NoteBook/blob/master/js/design-pattern/singleton.md)
+* [构造函数模式](https://github.com/yiyunShm/NoteBook/blob/master/js/design-pattern/constructor.md)
+* [工厂模式](https://github.com/yiyunShm/NoteBook/blob/master/js/design-pattern/factory.md)
+* [装饰者模式](https://github.com/yiyunShm/NoteBook/blob/master/js/design-pattern/decorator.md)
+* [外观模式](https://github.com/yiyunShm/NoteBook/blob/master/js/design-pattern/facade.md)
