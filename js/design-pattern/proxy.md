@@ -261,11 +261,11 @@ var proxy = {
 ```
 
 下图分别举例说明了生成三轮往返消息到服务器(无代理)与使用代理时仅有一轮往返消息相比较的情景。
+到服务器的三轮往返消息：
 ![http request without proxy](https://github.com/yiyunShm/NoteBook/blob/master/js/images/proxy_none.png)
-到服务器的三轮往返消息
 
+使用代理以合并请求减少到服务器的往返次数：
 ![http request with proxy](https://github.com/yiyunShm/NoteBook/blob/master/js/images/proxy_with.png)
-使用代理以合并请求减少到服务器的往返次数
 
 #### 缓存代理
 在例子中，客户端对象(videos)足够聪明到不会再次请求同一个视频信息。但是实际情况并不会总是如此。代理可以通过将以前的请求结果缓存到新的cache属性中，从而更进一步的保护本体对象http的访问。因为直接从缓存中取出消息，从而也节省了网络的往返消息。
