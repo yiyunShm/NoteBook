@@ -29,3 +29,4 @@
 * [工厂模式](https://github.com/yiyunShm/NoteBook/blob/master/js/design-pattern/factory.md)
 * [装饰者模式](https://github.com/yiyunShm/NoteBook/blob/master/js/design-pattern/decorator.md)
 * [外观模式](https://github.com/yiyunShm/NoteBook/blob/master/js/design-pattern/facade.md)
+* [代理模式](https://github.com/yiyunShm/NoteBook/blob/master/js/design-pattern/proxy.md)
