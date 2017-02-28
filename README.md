@@ -31,3 +31,4 @@
 * [外观模式](https://github.com/yiyunShm/NoteBook/blob/master/js/design-pattern/facade.md)
 * [代理模式](https://github.com/yiyunShm/NoteBook/blob/master/js/design-pattern/proxy.md)
 * [观察者模式](https://github.com/yiyunShm/NoteBook/blob/master/js/design-pattern/observer.md)
+* [ 策略模式](https://github.com/yiyunShm/NoteBook/blob/master/js/design-pattern/strategy.md)
