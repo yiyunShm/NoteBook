@@ -34,3 +34,4 @@
 * [策略模式](https://github.com/yiyunShm/NoteBook/blob/master/js/design-pattern/strategy.md)
 * [命令模式](https://github.com/yiyunShm/NoteBook/blob/master/js/design-pattern/command.md)
 * [迭代器模式](https://github.com/yiyunShm/NoteBook/blob/master/js/design-pattern/iterator.md)
+* [享元模式](https://github.com/yiyunShm/NoteBook/blob/master/js/design-pattern/flyweight.md)
