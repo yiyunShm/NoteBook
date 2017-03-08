@@ -22,6 +22,7 @@
 * [Frameworks without the framework](https://github.com/yiyunShm/NoteBook/blob/master/js/base/Frameworks%20without%20the%20framework.md)
 * [前端代码规范](https://github.com/yiyunShm/NoteBook/blob/master/js/base/%E5%89%8D%E7%AB%AF%E4%BB%A3%E7%A0%81%E8%A7%84%E8%8C%83.md)
 * [Javascript Deep Learning](https://github.com/yiyunShm/NoteBook/blob/master/js/base/Javascript-deep-learning.md)
+* [Designing html APIs](https://github.com/yiyunShm/NoteBook/blob/master/js/base/designing-html-apis.md)
 
 ##### 设计模式
 * [单体模式](https://github.com/yiyunShm/NoteBook/blob/master/js/design-pattern/singleton.md)
