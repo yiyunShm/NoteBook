@@ -37,6 +37,9 @@
 ##### SPA-test(http://www.github.com/yiyunShm/spa-test)
 基于AMD实现的单页化应用，通过Sammy来控制路由触发，tmod预编译模板，pace监听请求进度。目的是提高交互体验，加快渲染速度，没有使用Angular/React等是为了减少框架的约束。
 
+##### PWA-test(http://www.github.com/yiyunShm/PWA-test)
+PWA渐进式实践，利用service worker来缓存网络请求，加快页面响应。
+
 ##### Note(http://www.github.com/yiyunShm/notebook)
 读书笔记和一些学习上遇到问题的解决方案
 
