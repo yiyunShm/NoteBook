@@ -16,7 +16,7 @@ Function.prototype.method = function(name, func) {
 }
 ```
 
-### 9种排序算法思路和实现
+### 排序算法思路和实现
 #### 插入排序
 从无序区的第一个元素开始和它前面的有序区的元素进行比较，如果比前面的元素小，那么前面的元素向后移动，否则就将此元素插入到相应的位置。
 ```
@@ -157,6 +157,91 @@ Array.method('selectSort', function() {
         this[j] = tmp;
       }
     }
+  }
+  
+  return this;
+});
+```
+
+#### 归并排序
+* 归并：从两个有序表R[low...mid]和R[mid+1...high]，每次从左边依次去除一个数进行比较，将较小者放入tmp数组中，最后将两段中剩下的部分直接复制到tmp中。这样，tmp是一个有序表，再将它复制到R中。(其中要考虑最后一个子表的长度不足length的情况)
+* 排序：自底向上的归并，第一回：length = 1; 第二回：length = 2 \* length...
+
+```
+Array.method('merge', function(low, mid, high) {
+  var tmp = new Array(), i = low, j = mid + 1, k = 0;
+  while (i <= mid && j <= high) {
+    if (this[i] <= this[j]) {
+      tmp[k] = this[i];
+      i++;
+      k++;
+    } else {
+      tmp[k] = this[j];
+      j++;
+      k++;
+    }
+  }
+  
+  while (i <= mid) {
+    tmp[k] = this[i];
+    i++;
+    k++;
+  }
+  
+  while (j <= high) {
+    tmp[k] = this[j];
+      j++;
+      k++;
+  }
+  
+  for(k = 0, i = low; i < high; k++, i++) {
+    this[i] = tmp[k];
+  }
+  return this;
+});
+
+Array.method('mergePass', function(length, n) {
+  var i;
+  for (i = 0; i + 2 * length - 1 < n; i = i + 2 * length) {
+    this.merge(i, i + length - 1, i + 2 * length - 1);
+  }
+  
+  if (i + length - 1 < n) {
+    this.merge(i, i + length - 1, n - 1);
+  }
+  return this;
+});
+
+Array.method('mergeSort', function() {
+  var len = this.length,
+      length;
+  
+  for (length = 1; length < len; length = 2 * length) {
+    this.mergePass(length, len);
+  }
+  
+  return this;
+});
+```
+
+#### 希尔排序
+我们在第i次时取gap = (n  / 2)的i次方，然后将数组分为gap组(从下标0开始，每相邻的gap个元素为一组)，接下来我们对每一组进行直接插入排序。
+```
+Array.method('shellSort', function(){
+  var len = this.length, gap = parseInt(len/2), 
+      i, j, tmp;
+      
+  while(gap > 0){
+    for(i=gap; i<len; i++){
+      tmp = this[i];
+      j = i - gap;
+      while(j>=0 && tmp < this[j]){
+        this[j+gap] = this[j];
+        j = j - gap;
+      }
+      this[j + gap] = tmp;
+    }
+    gap = parseInt(gap/2);
   }
   
   return this;
