@@ -25,6 +25,7 @@
 * [Designing html APIs](https://github.com/yiyunShm/NoteBook/blob/master/js/base/designing-html-apis.md)
 * [JS排序算法](https://github.com/yiyunShm/NoteBook/blob/master/js/base/JS%E6%8E%92%E5%BA%8F%E7%AE%97%E6%B3%95.md)
 * [Webpack笔记](https://github.com/yiyunShm/NoteBook/blob/master/js/base/Webpack%E7%AC%94%E8%AE%B0.md)
+* [Effective Code Review](https://github.com/yiyunShm/NoteBook/blob/master/js/base/Effective-code-review.md)
 
 #### 设计模式
 * [单体模式](https://github.com/yiyunShm/NoteBook/blob/master/js/design-pattern/singleton.md)
