@@ -47,6 +47,7 @@ Javascript语言的一大特点就是单线程，也就是说，同一个时间�
 主线程从"任务队列"中读取事件，这个过程是循环不断的，所以整个的这种运行机制又称为Event Loop（事件循环）。
 
 为了更好地理解Event Loop，请看下图(转引自Philip Roberts的演讲[Help, I'm stuck in an event-loop](http://vimeo.com/96425312))。
+
 ![Event Loop](https://github.com/yiyunShm/NoteBook/tree/master/js/base/images/event_loop.png)
 
 上图中，主线程运行的时候，产生堆(heap)和栈(stack)，栈中的代码调用各种外部API，它们在"任务队列"中加入各种事件(click, load, done)。只要栈中的代码执行完毕，主线程就会去读取"任务队列"，依次执行那些事件所对应的回调函数。
@@ -65,7 +66,8 @@ HTML5标准规定了setTimeout()的第二个参数的最小值（最短间隔）
 需要注意的是，setTimeout()只是将事件插入了"任务队列"，必须等到当前代码（执行栈）执行完，主线程才会去执行它指定的回调函数。要是当前代码耗时很长，有可能要等很久，所以并没有办法保证，回调函数一定会在setTimeout()指定的时间执行。
 
 ### Node.js的Event Loop
-Node.js也是单线程的Event Loop，但是它的运行机制不同于浏览器环境.
+Node.js也是单线程的Event Loop，但是它的运行机制不同于浏览器环境。
+
 ![Node System](https://github.com/yiyunShm/NoteBook/tree/master/js/base/images/node_system.png)
 
 根据上图，node.js的运行机制如下：

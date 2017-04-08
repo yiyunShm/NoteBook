@@ -1,27 +1,31 @@
 ## 个人信息
-* 陈世豪/男/1992
-* 本科/华南师范大学通信工程专业(2012-2016)
+* 陈世豪 / 男 / 1992
+* 本科 / 华南师范大学通信工程专业(2012-2016)
 * 工作年限: 2年
 * Github: https://github.com/yiyunShm
 * 期望职位: Web前端工程师
+> 宁静以致远
 
 -----
 ## 联系方式
 * Email: yiyunShm@gmail.com
-* QQ/Wechat: 2246529762
+* QQ / Wechat: 2246529762
 
 -----
 ## 工作经历
 #### 深圳博思协创网络科技有限公司(2015年9月～ 2016年4月)
-##### IBOS官网(http://www.ibos.com.cn/)
+> IBOS官网(http://www.ibos.com.cn/)
+
 IBOS官网主要作为微信企业号开发的认证域名，连通微信和IBOS数据，为企业提供移动办公服务。
 工作内容：官网页面重构、微信套件介绍页、SaaS OA和酷办公的绑定开通流程以及更新OA系统的帮助文档中心。
 
-##### 酷办公官网(http://www.kubangong.com)
+> 酷办公官网(http://www.kubangong.com)
+
 酷办公官网是酷办公App的在线管理平台，主要提供企业组织架构管理服务。同时作为API中心，支撑IBOS官网和SaaS OA的数据服务。
 工作内容：官网页面重构、多企业支持。
 
-##### SaaS OA系统(http://www.saas.ibos.cn)
+> SaaS OA系统(http://www.saas.ibos.cn)
+
 工作内容：
 1. 以模块为单位，独立的前端开发，配合后端数据交互。
 2. 优化前端代码，提高页面交互性能(之前的代码只实现了功能，没有考虑企业人数过量情况下带来的性能消耗和渲染负担。在两轮的代码重构下，使系统数据在web端从200用户支撑到5万用户)。
@@ -30,7 +34,8 @@ IBOS官网主要作为微信企业号开发的认证域名，连通微信和IBOS
 5. 管理github上的私库代码，确保各分支代码的关联性，减少团队协作不规范带来的不必要冲突(根据git分支管理策略规范操作)
 6. 协调小组开发进度，版本上线维护(需求-策划-原型-设计-开发-测试，每一步骤都明确负责人)
 
-##### 定制版OA系统开发
+> 定制版OA系统开发
+
 * 中国广核集团
 * 广州市建筑科学研究院二局
 * 广州市城市排水监测站
@@ -38,7 +43,8 @@ IBOS官网主要作为微信企业号开发的认证域名，连通微信和IBOS
 在OA开发过程中，对工作流、CRM、信息公告、人事管理，企业组织架构等模块有了更深入的认识，从产品的角度去思考技术的价值，从商业的角度去思考产品的价值，努力去做更人性化的交互体验。
 
 #### 广东移动通信有限公司惠州分公司(2015年6月～2015年9月)
-##### 基于web的告警拓扑实现
+> 基于web的告警拓扑实现
+
 根据基站地段划分生成区域列表，采集通信基站数据，点击区域列表网点异步获取告警数据，通过echarts实时生成告警拓扑，并根据排班系统通知相关人员前去对基站进行维护
 
 #### 广州佰程贸易有限公司(2015年4月～2015年5年)
@@ -46,27 +52,33 @@ IBOS官网主要作为微信企业号开发的认证域名，连通微信和IBOS
 
 -----
 ## 开源项目和作品
-##### SPA-test(http://www.github.com/yiyunShm/spa-test)
+> SPA-test(http://www.github.com/yiyunShm/spa-test)
+
 基于AMD实现的单页化应用，通过Sammy来控制路由触发，tmod预编译模板，pace监听请求进度。目的是提高交互体验，加快渲染速度，没有使用Angular/React等是为了减少框架的约束。
 
-##### PWA-test(http://www.github.com/yiyunShm/PWA-test)
+> PWA-test(http://www.github.com/yiyunShm/PWA-test)
+
 PWA渐进式实践，利用service worker来缓存网络请求，加快页面响应的同时支持离线应用。
 
-##### Note(http://www.github.com/yiyunShm/notebook)
+> Note(http://www.github.com/yiyunShm/notebook)
+
 读书笔记和一些学习上遇到问题的解决方案.
 
 -----
 ## 技能清单
-##### HTML/CSS
+> HTML/CSS
+
 能够编写语义化的 HTML，模块化的 CSS，完成较复杂的布局
 
-##### JavaScript
+> JavaScript
+
 熟悉原生Javascript，能脱离jQuery等类库编码
 能运用模块化、面向对象的方式编程
 了解 RequireJS jQuery Backbone Angular 的使用
 
-##### 其他
-了解 Bower Gulp 等前端自动化工具
+> 其他
+
+了解 Bower Gulp Webpack 等前端自动化工具
 了解前端安全、性能优化方面的一些知识
 
 掌握 Linux 开发环境、 Linux 服务器环境搭建部署
